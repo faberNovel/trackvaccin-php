@@ -46,41 +46,4 @@ class VaccineRepository extends ServiceEntityRepository
             $this->_em->flush();
         }
     }
-
-//    public function findAll(): array
-//    {
-//        return $this->createQueryBuilder('v')
-//            ->orderBy('v.date_time', 'DESC')
-//            ->getQuery()
-//            ->getResult();
-//    }
-
-    // /**
-    //  * @return Vaccine[] Returns an array of Vaccine objects
-    //  */
-    /*
-    public function findByExampleField($value)
-    {
-        return $this->createQueryBuilder('v')
-            ->andWhere('v.exampleField = :val')
-            ->setParameter('val', $value)
-            ->orderBy('v.id', 'ASC')
-            ->setMaxResults(10)
-            ->getQuery()
-            ->getResult()
-        ;
-    }
-    */
-
-    /*
-    public function findOneBySomeField($value): ?Vaccine
-    {
-        return $this->createQueryBuilder('v')
-            ->andWhere('v.exampleField = :val')
-            ->setParameter('val', $value)
-            ->getQuery()
-            ->getOneOrNullResult()
-        ;
-    }
-    */
 }
