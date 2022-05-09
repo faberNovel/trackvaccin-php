@@ -47,6 +47,14 @@ class VaccineRepository extends ServiceEntityRepository
         }
     }
 
+//    public function findAll(): array
+//    {
+//        return $this->createQueryBuilder('v')
+//            ->orderBy('v.date_time', 'DESC')
+//            ->getQuery()
+//            ->getResult();
+//    }
+
     // /**
     //  * @return Vaccine[] Returns an array of Vaccine objects
     //  */
